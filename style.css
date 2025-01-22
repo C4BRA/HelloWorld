@@ -9,7 +9,8 @@
 
   width: 20%; /* 20 x 4 equals 80, dividing images to four in a row (hopefully) */ 
   height: auto; /* maintains aspect ratio */ 
-  margin: 5px; /* adds spacing to the images */ 
+  margin-left: auto; /* god please work and center the row */
+  margin-right: auto;
   border: 1px solid #000; /* adds a border to the images */
   padding: 5px; /*adds spacing or something, I dont know yet */ 
 
