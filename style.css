@@ -1,18 +1,10 @@
-.gallery {
-  
-  display: flex; /* flexbox layout for gallery container */
-  flex-wrap: wrap; /* allows the images to wrap */
-
-}
-
 .gallery img {
 
-  width: 23%; /* 20 x 4 equals 80, dividing images to four in a row (hopefully) */ 
-  height: 250px; /* maintains aspect ratio */ 
-  margin-left: auto; /* god please work and center the row */
-  margin-right: auto;
-  margin-bottom: 10px; 
-  border: 1px solid #000; /* adds a border to the images */  
+  box-sizing: border-box;
+  float: left;
+  height: 250px;
+  width: 25%; /* 20 x 4 equals 80, dividing images to four in a row (hopefully) */    
+  padding: 5px;
 
 }
 
