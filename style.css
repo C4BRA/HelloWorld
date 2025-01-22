@@ -1,0 +1,15 @@
+.gallery {
+  
+  display: flex; /* flexbox layout for gallery container */
+  flex-wrap: wrap; /* allows the images to wrap */
+
+}
+
+.gallery img {
+
+  width: 25%; /* 25 x 4 equals 100, dividing images to four in a row */ 
+  height: auto; /* maintains aspect ratio */ 
+  margin: 5px; /* adds spacing to the images */ 
+  border: 1px solid #000; /* adds a border to the images */
+
+}
